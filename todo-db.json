@@ -1,0 +1,103 @@
+{
+  "todos": [
+    {
+      "title": "buy blue milk",
+      "order": 4,
+      "completed": false,
+      "url": "http://localhost:3000/todos/1",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "buy biscuits",
+      "order": 3,
+      "completed": true,
+      "url": "http://localhost:3000/todos/2",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "walk the dog",
+      "order": 2,
+      "completed": true,
+      "url": "http://localhost:3000/todos/3",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "go to the gym",
+      "order": 1,
+      "completed": false,
+      "url": "http://localhost:3000/todos/4",
+      "userId": 1
+    },
+    {
+      "title": "buy blue cheese",
+      "order": 5,
+      "completed": false,
+      "userId": 2,
+      "id": 5,
+      "url": "http://localhost:3000/todos/5"
+    },
+    {
+      "title": "buy a lot of cat food",
+      "order": 6,
+      "completed": true,
+      "userId": 1,
+      "id": 6,
+      "url": "http://localhost:3000/todos/6"
+    },
+    {
+      "title": "pet the hamster",
+      "order": 7,
+      "completed": false,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "title": "pet the bunny",
+      "order": 8,
+      "completed": false,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "title": "throw a party",
+      "order": 8,
+      "completed": false,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "title": "pet the bunny",
+      "order": 8,
+      "completed": true,
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "title": "throw a party",
+      "order": 8,
+      "completed": false,
+      "userId": 2,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "given":"Joe",
+        "surname":"Bloggs"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "given":"Mycroft",
+        "surname":"Bloggs"
+      }
+    }
+  ]
+}

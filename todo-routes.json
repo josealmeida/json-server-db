@@ -1,0 +1,9 @@
+{
+  "/api/*": "/$1",
+  "/:resource/:id/show": "/:resource/:id",
+  "/todos/completed": "/todos?completed=true",
+  "/todos/completed/:user": "/todos?completed=true&user=:user",
+  "/todos/incomplete": "/todos?completed=false",
+  "/todos/tobuy": "/todos?title_like=buy",
+  "/todos/searchtitle/:query": "/todos?title_like=:query"
+}
